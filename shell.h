@@ -116,7 +116,7 @@ int _putchar(char);
 int _isalpha(int);
 int _atoi(char *);
 int err_num(char *);
-int handle_help(info_s *);
+int handle_help();
 int handle_alias(info_s *);
 int handle_exit(info_s *);
 int handle_history(info_s *);

@@ -85,11 +85,8 @@ int handle_cd(info_s *info)
  * Return: 0 Always
  */
 
-int handle_help(info_s *info)
+int handle_help()
 {
-	char **arg_arr;
-
-	arg_arr = info->argv;
 	_puts("Function has not been implemented yet\n");
 	return (0);
 }
