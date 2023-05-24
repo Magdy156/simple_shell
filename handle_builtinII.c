@@ -85,7 +85,7 @@ int handle_cd(info_s *info)
  * Return: 0 Always
  */
 
-int handle_help()
+int handle_help(__attribute__((unused)) info_s *info)
 {
 	_puts("Function has not been implemented yet\n");
 	return (0);
